@@ -14,7 +14,7 @@ int main() {
     else if(day=='D') {
         printf("Below Average");
     }
-    else if(day=='E') {
+    else if(day=='F') {
         printf("Fail");
     }
     else {
