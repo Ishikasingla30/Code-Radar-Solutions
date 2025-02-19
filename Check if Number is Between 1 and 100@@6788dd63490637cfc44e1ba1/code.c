@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
-    int a, b;
-    scanf("%d %d", &a, &b);
+    int x;
+    scanf("%d %d", &x);
     if(x>=1 && x<=100) {
         printf("In Range");
     }
