@@ -14,5 +14,6 @@ int main() {
     else {
         (Invalid);
     }
+    return 0;
 
 }
