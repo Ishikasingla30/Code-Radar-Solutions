@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main() {
-    char day;
-    scanf("%c", &day);
-    if(day=='R') {
+    char d;
+    scanf("%c", &d);
+    if(d=='R') {
         printf("Stop");
     }
-    else if(day=='G') {
+    else if(d=='G') {
         printf("Go");
     }
-    else if(day=='Y') {
+    else if(d=='Y') {
         printf("Slow Down");
     }
     else {
-        printf("Invalid action");
+        printf("Invalid input");
     }
     return 0;
     
