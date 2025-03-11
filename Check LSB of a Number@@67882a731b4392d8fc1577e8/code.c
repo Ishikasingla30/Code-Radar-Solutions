@@ -9,4 +9,9 @@ int main() {
     
     // Check LSB using bitwise AND operator
     if (num & 1)
-       
+        printf("Set\n");
+    else
+        printf("Not Set\n");
+
+    return 0;
+}
