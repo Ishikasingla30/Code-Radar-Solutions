@@ -2,17 +2,13 @@
 int main() {
     int a, b;
     scanf("%d", &a);
-    if(a>0 && b>0 || a<0 && b<0) {
+    if(a>0 && b>0 || a<0 && b<0)
         printf("Same Sign");
-    }
-    else if(a<0 && b>0) {
+    else if(a<0 && b>0)
         printf("Different Sign");
-    }
-    else if(a>0 && b<0) {
+    else if(a>0 && b<0)
         printf("Different Sign");
-    }
-    else {
+    else
         printf("Different Sign");
-    }
     return 0;
 }
