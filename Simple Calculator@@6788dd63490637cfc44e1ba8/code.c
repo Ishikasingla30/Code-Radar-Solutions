@@ -20,13 +20,13 @@ int main() {
             break;
         case '/':
             if (b == 0) {
-                printf("Error\n");  
+                printf("error\n");  
             } else {
                 printf("%d\n", a / b);
             }
             break;
         default:
-            printf("Error\n");  
+            printf("error\n");  
     }
 
     return 0;
