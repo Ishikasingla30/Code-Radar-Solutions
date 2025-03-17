@@ -6,7 +6,7 @@ int main() {
 
     for (int i = N; i > 0; i--) {  // Loop for each row
         for (int j = 0; j < i; j++) {  // Printing stars in decreasing order
-            printf("*");
+            printf("* ");
         }
         printf("\n");  // New line after each row
     }
