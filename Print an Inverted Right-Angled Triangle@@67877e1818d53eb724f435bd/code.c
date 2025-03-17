@@ -2,13 +2,13 @@
 
 int main() {
     int N;
-    scanf("%d", &N);  // Taking input for number of rows
+    scanf("%d", &N);  
 
-    for (int i = N; i > 0; i--) {  // Loop for each row
-        for (int j = 0; j < i; j++) {  // Printing stars in decreasing order
+    for (int i = N; i > 0; i--) {  
+        for (int j = 0; j < i; j++) {  
             printf("* ");
         }
-        printf("\n");  // New line after each row
+        printf("\n");  
     }
 
     return 0;
