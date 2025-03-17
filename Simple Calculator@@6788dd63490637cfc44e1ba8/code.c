@@ -4,10 +4,10 @@ int main() {
     int a, b;
     char op;
 
-    // Taking input: two integers and an operator
+   
     scanf("%d %d %c", &a, &b, &op);
 
-    // Performing operation based on the operator
+    
     switch (op) {
         case '+':
             printf("%d\n", a + b);
@@ -20,13 +20,13 @@ int main() {
             break;
         case '/':
             if (b == 0) {
-                printf("Error\n");  // Handling division by zero
+                printf("Error\n");  
             } else {
                 printf("%d\n", a / b);
             }
             break;
         default:
-            printf("Error\n");  // Handling invalid operator
+            printf("Error\n");  
     }
 
     return 0;
